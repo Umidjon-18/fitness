@@ -24,4 +24,8 @@ class _Images extends _AssetsHolder {
   const _Images() : super('assets/images');
 
   String get modal => "$basePath/im_modal.png";
+  String get welcome => "$basePath/im_welcome.png";
+  String get carousel1 => "$basePath/im_carousel_one.png";
+  String get carousel2 => "$basePath/im_carousel_two.png";
+  String get carousel3 => "$basePath/im_carousel_three.png";
 }

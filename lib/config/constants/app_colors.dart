@@ -57,7 +57,7 @@ abstract class AppColors {
   static Dark dark = const Dark();
 
   static Others others = const Others();
-  
+
   static Background background = const Background();
 
   static TextColor textColor = TextColor();
@@ -143,6 +143,11 @@ class Gradients {
   LinearGradient get yellowG => const LinearGradient(colors: [Color(0xffFACC15), Color(0xffFFE580)]);
 
   LinearGradient get redG => const LinearGradient(colors: [Color(0xffFF5A5F), Color(0xffFF9094)]);
+
+  LinearGradient get welcome => LinearGradient(colors: [
+        const Color(0xFF3A3A3A).withOpacity(0),
+        const Color(0xFF2C2C2C),
+      ], begin: Alignment.topRight);
 }
 
 class Dark {

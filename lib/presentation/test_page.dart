@@ -1,3 +1,4 @@
+import 'package:fitness/presentation/components/custom_radio.dart';
 import 'package:flutter/material.dart';
 
 import '../config/constants/constants.dart';
@@ -22,11 +23,12 @@ class _TestPageState extends State<TestPage> {
         alignment: Alignment.center,
         padding: const EdgeInsets.symmetric(vertical: 20),
         child: Column(
-          children: const [
-            Alert(status: AlertStatus.success),
-            Modal(),
-            Toggle(),
-            CustomCheckbox(),
+          children: [
+            const Alert(status: AlertStatus.success),
+            const Modal(),
+            const Toggle(),
+            CustomCheckbox(isSwitched: true),
+            const CustomRadio(),
           ],
         ),
       ),

@@ -15,7 +15,7 @@ class Modal extends StatelessWidget {
       width: 340.w,
       padding: EdgeInsets.symmetric(vertical: 40.h, horizontal: 32.w),
       decoration: BoxDecoration(
-        color: AppColors.others.white,
+        color: AppColors.dark.dark2,
         borderRadius: BorderRadius.circular(24.r),
       ),
       child: Column(
